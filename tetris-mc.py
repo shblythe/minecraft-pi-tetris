@@ -51,7 +51,6 @@ DROP_RATE=3
 
 # Blit a pygame surface onto the Minecraft world
 # Anything but BLACK gets rendered as stone, everything else as air
-# This version blits rotated 90 deg
 def mc_blit(surface):
     w,h=surface.get_size()
     for y in range(14):
